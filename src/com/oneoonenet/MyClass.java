@@ -12,14 +12,14 @@ public class MyClass {
     }
 
     public static void main(String[] args) {
-        MyClass test = new MyClass();
+        MyClass myClass = new MyClass();
         Scanner userInput = new Scanner(System.in);
         System.out.print("Enter the number of primes to be displayed: ");
         int num = userInput.nextInt();
 
         int count = 0;
         for (int i = 2; count < num; i++) {
-            if (test.isPrime(i)) {
+            if (myClass.isPrime(i)) {
                 System.out.print(i + " ");
                 count++;
             }
